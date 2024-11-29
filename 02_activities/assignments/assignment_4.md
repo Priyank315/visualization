@@ -8,9 +8,9 @@
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
     > What software did you use to create your data visualization?
-        Python with libraries: Matplotlib and Seaborn.
+        Python with libraries: Matplotlib and Seaborn. [source for Dataset: https://open.toronto.ca/dataset/cultural-festivals-funding-program-recipients/]
 
-        Tableau Public for creating a geographically rich, interactive visualization.
+        Tableau Public for creating a geographically rich, interactive visualization. [source for Dataset: https://open.toronto.ca/dataset/cultural-festivals-funding-program-recipients/]
 
     > Who is your intended audience? 
     Policymakers and program administrators involved in cultural funding.Researchers analyzing cultural investment priorities. --> For Python
