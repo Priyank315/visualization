@@ -8,22 +8,46 @@
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
     > What software did you use to create your data visualization?
+        Python with libraries: Matplotlib and Seaborn.
+
+        Tableau Public for creating a geographically rich, interactive visualization.
 
     > Who is your intended audience? 
-    
-    > What information or message are you trying to convey with your visualization? 
+    Policymakers and program administrators involved in cultural funding.Researchers analyzing cultural investment priorities. --> For Python
+        Toronto city council members, community planners, and grant applicants interested in geographic distribution pattern. --> For Tableau
+
+    > What information or message are you trying to convey with your visualization?
+        FOR PYTHON - This chart highlights which funding streams received the largest allocations in 2024. It emphasizes the priority given to "Multi-Year Operating" and "Annual Operating" streams compared to "Project" funding.
+        FOR TABLEAU - Highlights which wards received the highest/lowest funding, providing insights into spatial equity.
     
     > What design principles (substantive, perceptual, aesthetic) did you consider when making your visualization? How did you apply these principles? With what elements of your plots? 
+        FOR PYTHON: Substantive: Focus on a high-level comparison of funding streams.
+                    Perceptual: Used distinct colors and clear labels to ensure data is easy to read.
+                    Aesthetic: Minimal clutter, with clean axes and an intuitive layout.
+
+        FOR TABLEAU: Substantive: Geographic representation aligns with the theme of ward-level distribution.
+                     Perceptual: Used contrasting colors to emphasize disparities.
+                     Aesthetic: Simple map layout with a gradient to avoid overwhelming viewers.
     
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+        FOR PYTHON: The Python code provided ensures reproducibility. Anyone with access to the dataset can recreate the visualization.
+        FOR TABLEAU:Tableau workbooks can be shared. However, they are not fully open-source, which might limit reproducibility. Exported CSV files ensure users can replicate the results. 
     
     > How did you ensure that your data visualization is accessible?  
+        FOR PYTHON: Added a descriptive title, labeled axes, and ensured colors are distinguishable for individuals with visual impairments (colorblind-friendly palette).
+        FOR TABLEAU:Included clear legends and interactive tooltips to make the visualization informative for diverse audiences. 
     
     > Who are the individuals and communities who might be impacted by your visualization?  
+        FOR PYTHON: Recipients of funding streams, including cultural organizations and local community groups, may use the visualization to understand funding trends.
+        FOR TABLEAU:Community organizations in underfunded wards may use this visualization to advocate for more equitable funding. 
     
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+        FOR PYTHON: Selected "Stream" and "Grant" columns to focus on grant distribution by funding type. Excluded "Ward" and other details irrelevant to this analysis.
+        FOR TABLEAU:Selected "Ward" and "Grant" columns. Excluded other details (e.g., "Project Name") to keep the map focused.
     
     > What ‘underwater labour’ contributed to your final data visualization product?
+        FOR PYTHON: Data cleaning and summarization (grouping by streams), ensuring visual clarity, and debugging the code to make the visualization accurate.
+        FOR TABLEAU:Exporting data, geocoding wards in Tableau, testing map configurations, and ensuring labels are legible.
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
